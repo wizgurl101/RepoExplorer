@@ -9,7 +9,12 @@ Purpose:
    LangGraph) to communicate with another service (ruby on rails API)
 3. To have a useful tool for aid in learning and trouble-shooting in an
    unfamiliar code repository.
+4. To learn the ruby on rails and python's FastAPI frameworks
 
 ## Dev Setup
 
-### Backend
+### Ruby on Rails Backend
+
+### Python AI Agent Service
+
+### Vue Frontend
