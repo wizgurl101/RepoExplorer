@@ -17,4 +17,10 @@ Purpose:
 
 ### Python AI Agent Service
 
+Start FastAPI project
+
+```bash
+   uvicorn app.main:app --reload
+```
+
 ### Vue Frontend
