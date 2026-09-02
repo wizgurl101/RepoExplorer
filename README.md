@@ -18,8 +18,6 @@ Prototype of a simple UI
 
 ## Dev Setup
 
-### Ruby on Rails Backend
-
 ### Python AI Agent Service
 
 Start FastAPI project
@@ -40,3 +38,9 @@ Go to Frontend folder, install dependencies.
   npm install
   npm run dev
 ```
+
+### Ruby on Rails Backend
+
+Note: this is for a further development once the tool been implement,
+to have it become a saas product where users can save a number of code
+repo
