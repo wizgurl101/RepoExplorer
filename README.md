@@ -28,3 +28,10 @@ Start FastAPI project
 Run service then Go to: http://localhost:8000/docs
 
 ### Vue Frontend
+
+Go to Frontend folder, install dependencies.
+
+```bash
+  npm install
+  npm run dev
+```

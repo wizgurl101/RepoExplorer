@@ -1,5 +1,10 @@
-import { createApp } from 'vue'
-import './style.css'
-import App from './App.vue'
+import { createApp } from "vue";
+import { createVuetify } from "vuetify";
+import "@mdi/font/css/materialdesignicons.css";
+import "vuetify/styles";
 
-createApp(App).mount('#app')
+import App from "./App.vue";
+
+const vuetify = createVuetify();
+
+createApp(App).use(vuetify).mount("#app");
