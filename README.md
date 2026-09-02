@@ -11,6 +11,11 @@ Purpose:
    unfamiliar code repository.
 4. To learn the ruby on rails and python's FastAPI frameworks
 
+Current Status: 2026-09-01
+Prototype of a simple UI
+
+![](./prototype-1-UI.png)
+
 ## Dev Setup
 
 ### Ruby on Rails Backend
@@ -28,3 +33,10 @@ Start FastAPI project
 Run service then Go to: http://localhost:8000/docs
 
 ### Vue Frontend
+
+Go to Frontend folder, install dependencies.
+
+```bash
+  npm install
+  npm run dev
+```
