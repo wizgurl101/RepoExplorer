@@ -9,7 +9,6 @@ Purpose:
    LangGraph) to communicate with another service (ruby on rails API)
 3. To have a useful tool for aid in learning and trouble-shooting in an
    unfamiliar code repository.
-4. To learn the ruby on rails and python's FastAPI frameworks
 
 Current Status: 2026-09-01
 Prototype of a simple UI
@@ -18,11 +17,17 @@ Prototype of a simple UI
 
 ## Dev Setup
 
-### Ruby on Rails Backend
-
 ### Python AI Agent Service
 
 Start FastAPI project
+
+activate the environment
+
+```bash
+   .\.venv\Scripts\Activate
+```
+
+Start the server
 
 ```bash
    uvicorn app.main:app --reload
@@ -40,3 +45,9 @@ Go to Frontend folder, install dependencies.
   npm install
   npm run dev
 ```
+
+### Ruby on Rails Backend
+
+Note: this is for a further development once the tool been implement,
+to have it become a saas product where users can save a number of code
+repo

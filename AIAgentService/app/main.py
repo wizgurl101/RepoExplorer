@@ -1,8 +1,8 @@
 from fastapi import FastAPI
+from app.api.routes import router
 
-app = FastAPI()
+app = FastAPI(
+    title="RepoExplorer"
+)
 
-
-@app.get("/")
-async def root():
-    return {"message": "Hi from Repo Explorer AI Agent"}
+app.include_router(router)
