@@ -6,7 +6,6 @@ router = APIRouter(prefix="/api")
 
 @router.get("/analyze-auth")
 async def analyze_auth(repo_path: str):
-
     result = await analyze_authentication(repo_path)
 
     return result
